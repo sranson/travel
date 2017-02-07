@@ -11,7 +11,8 @@ My homeland is <%= @homeland %>
 </ul>
 
 <% @travel_pics.each do |pic| %>
-	<%= image_tag pic, width:300, height:200 %>
+	<%= image_tag pic, class: "img-responsive" %> 
+	<br>
 <% end %>
 
 
